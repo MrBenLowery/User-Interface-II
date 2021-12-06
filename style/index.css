@@ -75,3 +75,52 @@ footer a {
 	background-color: burlywood;
 	color: cornsilk;
 }
+@media (max-width: 800px){
+	nav .links {
+		flex-wrap: wrap;
+		justify-content: center;
+		flex-direction: column;
+		margin-left:37%;
+		width: fit-content;
+	}
+	.gallery {
+		display: flex;
+		justify-content: space-evenly;
+		flex-wrap: wrap;
+		flex-direction: row;
+	}
+	.gallery img{
+		display: flex;
+		width: 40%;
+		margin-top: 7%;
+	}
+}
+
+
+@media (max-width: 500px){
+
+	nav .links {
+		flex-wrap: wrap;
+		justify-content: center;
+		flex-direction: column;
+		margin-left:37%;
+		width: fit-content;
+	}
+	.gallery {
+		display: flex;
+		justify-content: space-evenly;
+		flex-wrap: wrap;
+		flex-direction: row;
+	}
+	.gallery img{
+		display: flex;
+		width: 40%;
+		margin-top: 7%;
+	}
+	.topbit p{
+		font-size: 60%;
+	}
+	.gallery p{
+		font-size: 60%;
+	}
+}
